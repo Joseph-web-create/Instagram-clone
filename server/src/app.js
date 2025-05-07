@@ -12,7 +12,7 @@ const app = express();
 const corsOptions = {
   origin: [
     "http://localhost:4600",
-    "https://instagram-clone-mu-ten.vercel.app/",
+    "https://instagram-clone-mu-ten.vercel.app",
   ],
   optionsSuccessStatus: 200,
   methods: ["GET", "POST", "PATCH", "DELETE"],
