@@ -35,6 +35,7 @@ export default function UpdatePassword() {
   const onFormSubmit = async (data) => {
     if (data.newPassword !== data.confirmPassword) {
       toast.error("New password and Confirm password are not a match");
+      
     }
     try {
       const res = await updateUserPassword(data, accessToken);
