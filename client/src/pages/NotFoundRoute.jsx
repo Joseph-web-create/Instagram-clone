@@ -9,12 +9,12 @@ export default function NotFoundRoute() {
       <div className="flex justify-center items-center min-h-screen">
         <div className="text-center">
           <h1 className="font-bold text-4xl">OOPS!</h1>
-          <P>The page you're looking for does not exist</P>
+          <p>The page you're looking for does not exist</p>
           <p>Let's help you get back</p>
           <button
-            className="mt-4 btn bg-[var(--wind-red)] text-white rounded-md "
+            className="mt-4 btn bg-[var(--wine-red)] text-white rounded-md "
             onClick={() => navigate("/")}
-          ></button>
+          >Home</button>
         </div>
       </div>
     </Container>
