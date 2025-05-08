@@ -39,5 +39,5 @@ export default function useFetch({ apiCall, params = [] }) {
     fetchData();
   }, [fetchData]);
 
-  return { data, loading, setData };
+  return { data, loading, setData, error };
 }
