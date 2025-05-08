@@ -14,7 +14,7 @@ export default function NotFoundRoute() {
           <button
             className="mt-4 btn bg-[var(--wine-red)] text-white rounded-md "
             onClick={() => navigate("/")}
-          >Home</button>
+          >Go back</button>
         </div>
       </div>
     </Container>
